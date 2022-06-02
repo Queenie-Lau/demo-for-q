@@ -1,0 +1,30 @@
+
+.bio { /* Syntax (arrangement of words and phrases) for "class" elements begin with dot */
+    color: blue; /* See how this affected both p and h2 within the bio class section? */
+    
+    /**
+    Brackets are used for legibility and to indicate the start and end of what you want to edit.
+    You need to add OPENING { and CLOSING } brackets for your edits to show up.
+
+    Always add a SEMICOLON ; to the end of EACH line.
+
+    */   
+}
+
+#intro-sentence { /** Syntax for "id" elements begin with a # */
+    /** 
+    Let's override this class rule by defining the color of this specific sentence!
+    CSS reads TOP to BOTTOM so whatever follows can override and replace previously made styling.
+     */
+    color: yellowgreen;
+}
+
+p {
+    /* Change ALL paragraph elements to FOLLOW this styling */
+    /* Edit FONT type for paragrpah elements */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1, h2 {
+    /* Modify multiple element types at once to have the SAME styling */
+}
